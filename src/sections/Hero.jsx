@@ -4,6 +4,13 @@ import "./../styles/Hero.css";
 export default function Hero() {
   const { language, t } = useLanguage();
 
+  const whatsappMessage =
+  "Hello, I would like to enquire about Sree Hanuman Enterprises eco leaf plates.";
+
+const whatsappUrl = `https://wa.me/919533191510?text=${encodeURIComponent(
+  whatsappMessage
+)}`;
+
   return (
     <section className="hero-section" id="home">
       <div className="hero-container">
